@@ -1,0 +1,448 @@
+body{
+    font-family:'open-sans', sans-serif;
+    font-size: 16px ;
+    line-height: 20px ;
+    width: 100%;
+    padding: 10px;
+  
+}
+
+.content{
+    background-image:url(./pasionaria.jpg);
+}
+
+header{
+    background-color: rgba(17, 151, 39, 0.788);
+    padding: 40px;
+}
+
+header h1{
+color: white;
+font-size: 2.5em;
+font-style: italic;
+font-weight: 100;
+display: inline-block;
+position: relative;
+bottom: 30px;
+}
+
+nav {
+    background-color: #6ded93;
+    margin-bottom: 1em;
+    opacity: 85%;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 40px;
+}
+
+nav ul li{
+    display: inline-block;
+    width: 14.3%;
+    
+} 
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0.2em 0.4em;
+}
+
+nav ul li a:hover{
+    background-color: gba(0,0,0,0.3);
+}
+
+nav ul li a.activo{
+    background-color: #2a772a;
+}
+
+footer{
+    background-color: #ccc;
+    clear: both;
+    color: #333;
+    padding: 3em 0;
+    margin-top: 2em;
+    text-align: center;
+}
+
+h2{
+    color: #2e64a1;
+    font-weight: 400;
+    margin: 0 0 1em;
+}
+
+
+
+.holder{
+    width: 100%;
+    margin: 18px auto;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.homing{
+    margin-bottom: 1.5em;
+    width: 100%;
+    margin: 5px;
+}
+
+
+.columnas{
+    overflow: hidden;
+}
+
+.bienvenidos, .experiencias{
+    box-sizing: border-box;
+}
+
+.bienvenidos{
+    width: 75%;
+    padding-right: 2em;
+}
+
+.experiencias{
+    width: 25%;
+}
+
+.experiencias{
+    background-color: #ccc;
+    padding: 1em;
+}
+
+.experiencias .cita{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.4em;
+    display: block;
+}
+
+.experiencias .autor{
+    font-size: 0.7em;
+    text-align: center;
+    margin: 1em 0;
+    display: block;
+}
+
+/*Ini Nosotros*/
+
+.staff{
+background-color:rgb(88, 218, 88);
+height: auto;
+width: 100%;
+padding:40px;
+display: grid;
+opacity: 87%;
+
+}
+
+.contenedor{
+    background-image: url(./fondo\ mburucuya.jpg);
+}
+
+.Nosotros p{
+    font-size: 1.2 em;
+}
+
+.personas{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.persona{
+    width: 18%;
+    border: 1px solid gray;
+    border-radius: 0.24em;
+    float: left;
+    margin-left: 2.25%;
+    box-sizing: border-box;
+    padding: auto;
+}
+
+.persona{
+    text-align: center;
+}
+
+.persona img{
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    margin: 0.7em 0 1em;
+    max-width: 70%;
+}
+
+.persona h5
+.persona h6{
+    text-align: center;
+    font-weight: normal;
+    color: #2e64a1;
+    margin: 0;
+}
+
+.persona h5{
+    font-size: 0.8em;
+}
+
+.persona h6{
+    font-size: 0.7em;
+    font-style: italic;
+}
+
+.persona p{
+    font-size: 0.7em;
+    color: #444;
+    margin: 0 1em 1em;
+}
+
+
+/*Fin Nosotros*/
+
+
+/*Ini galeria*/
+*{
+    padding: 1;
+    margin: 1;
+    box-sizing:content-box;
+    font-family: sans-serif;
+}
+
+.Especies{
+    background-image:url(./fondo\ mburucuya.jpg) ;
+    height: auto;
+    padding: 10px;
+
+}
+
+  h1 {
+    margin: 0px;
+  }
+  
+  
+h1{
+    text-align: center;
+    position: relative;    
+}
+
+h1::before{
+    content:"";
+    display: block;
+    width:100%;
+    height: 2px;
+    position: absolute;
+    background-color: rgb(134, 95, 95);
+    top: 50%;
+    z-index: -1;
+}
+
+h1 span{
+    background-color: #ccc;
+    padding: 0 15px;
+}
+
+.especies p{
+    font-size: 1em;
+}
+
+.especies{
+    display:block;
+    justify-content:flex-start;
+
+}
+
+.especie{
+    width: 95%;
+    padding: 5%;
+    border: 1px solid rgb(5, 163, 5);
+    border: radius 10px;
+    float:left;
+    margin-left: 2.25%;
+    box-sizing:border-box;
+    background-color: #4fdb61;
+    opacity: 91%;
+}
+
+.especie{
+    text-align: center;
+}
+
+.especie img{
+    border-radius:2%;
+    box-shadow: 1 3 5px rgba(0,0,0,0.3);
+    margin: 0.7em 0 1em;
+    max-width: 90%;
+}
+
+.especie h5
+.especie h6{
+    text-align: center;
+    font-weight: normal;
+    color: #2e64a1;
+    margin: 1;
+}
+
+.especie h5{
+    font-size: 0.9em;
+}
+
+.especie h6{
+    font-size: 1em;
+    font-style:italic;
+}
+
+.especie p{
+    font-size: 1em;
+    color: #050505;
+    margin: 0 1em 1em;
+}
+
+
+
+@media screen and (max-width:400px){
+    h1{
+        text-decoration: none;
+    }
+    h1::before{
+        display:block;
+    }
+    h1 span{
+        padding: 0;
+    }
+
+}
+
+
+/*Fin galeria*/ 
+
+
+/*Ini Proyectos*/
+*{
+    padding: 0%;
+    margin: 1;
+    box-sizing: content-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Proyectos{
+    background-image: url(./fondo\ mburucuya.jpg);
+    width: auto;
+    height: 5%;
+    padding: 10%;
+
+}
+
+.Proyectos p{
+    font-size: 0.9em;
+}
+
+.Proyectos{
+    display:grid;
+    justify-content:baseline;
+
+}
+
+.reforestar{
+    background-color: #28be3c;
+    opacity: 85%;
+    width: 90%;
+    height: 100%;
+    border: 1px solid rgb(5, 1, 1);
+    border-radius: 5%;
+    float:inline-start;
+    margin-left: 2.25%;
+    box-sizing:border-box;
+}
+
+.reforestar{
+    text-align: center;
+}
+
+.reforestar img{
+    border-radius: 1%;
+    box-shadow: 1 1 5px rgba(0,0,0,0.5);
+    margin: 0.7em 0 1em;
+    max-width: 70%;
+}
+
+
+
+/*Fin Proyectos*/
+
+/*Ini contactos*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    background-image: url(./ceibo\ fondo.jpg);
+    
+
+}
+
+.form-registro{
+    width: 350px;
+    background: #7eb468;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    box-shadow: 8px 13px 4px #2a772a;
+    opacity: 90%;
+}
+
+.control{
+    width: 100%;
+    background-color: #2a772a;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: #1a253d;
+}
+
+.form-registro h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.form-registro p{
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.form-registro a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.form-registro .button{
+width: 100%;
+background: #189b18;
+border: none;
+padding: 15px;
+color: white;
+margin: 15px 0;
+font-size: 15px;
+}
+
+
+/*Fin contactos*/
+
+/*font-family: 'open-sans', sans-serif;*/
