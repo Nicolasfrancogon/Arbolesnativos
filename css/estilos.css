@@ -102,36 +102,10 @@ h2{
     overflow: hidden;
 }
 
-.bienvenidos, .experiencias{
-    box-sizing: border-box;
-}
-
 .bienvenidos{
+    background-color: #34a834;
     width: 75%;
     padding-right: 2em;
-}
-
-.experiencias{
-    width: 25%;
-}
-
-.experiencias{
-    background-color: #ccc;
-    padding: 1em;
-}
-
-.experiencias .cita{
-    font-weight: bold;
-    font-style: italic;
-    font-size: 1.4em;
-    display: block;
-}
-
-.experiencias .autor{
-    font-size: 0.7em;
-    text-align: center;
-    margin: 1em 0;
-    display: block;
 }
 
 /*Ini Nosotros*/
