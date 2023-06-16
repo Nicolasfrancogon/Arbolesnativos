@@ -127,7 +127,7 @@ opacity: 87%;
 
 .personas{
     display: flex;
-    justify-content: space-between;
+    justify-content: wrap;
 
 }
 
