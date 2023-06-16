@@ -39,7 +39,8 @@ nav ul{
 }
 
 nav ul li{
-    display: inline-block;
+    display: inline;
+    justify-content: wrap;
     width: 14.3%;
     
 } 
@@ -189,16 +190,16 @@ opacity: 87%;
 }
 
 .persona h5{
-    font-size: 0.8em;
+    font-size: 1,2em;
 }
 
 .persona h6{
-    font-size: 0.7em;
+    font-size: 1em;
     font-style: italic;
 }
 
 .persona p{
-    font-size: 0.7em;
+    font-size: 1em;
     color: #444;
     margin: 0 1em 1em;
 }
