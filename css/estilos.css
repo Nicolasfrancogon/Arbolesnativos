@@ -134,6 +134,8 @@ opacity: 87%;
 .persona{
     width: 18%;
     border: 1px solid gray;
+    display: flex;
+    justify-content: space-evenly;
     border-radius: 0.24em;
     float: left;
     margin-left: 2.25%;
